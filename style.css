@@ -13,7 +13,7 @@ body {
     align-items: center;
     justify-content: center;
     display: flex;
-    font-size: 260%;
+    font-size: 100%;
     border-radius: 30%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
