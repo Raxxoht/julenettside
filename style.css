@@ -1,13 +1,19 @@
+html {
+    max-width: 100%;
+}
+
 body {
     background: url(https://www.teahub.io/photos/full/206-2064304_christmas-wallpaper-gif.jpg);   
 }
 #boks {
+    height:20%;
+    width:100%;
     background-color: rgba(245, 245, 245, 0.863);
     border: rgb(1, 80, 1) 10px double;
     align-items: center;
     justify-content: center;
     display: flex;
-    font-size: 40px;
+    font-size: 260%;
     border-radius: 30%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
