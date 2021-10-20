@@ -13,7 +13,7 @@ body {
     align-items: center;
     justify-content: center;
     display: flex;
-    font-size: 100%;
+    font-size: 34px;
     border-radius: 30%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -30,6 +30,8 @@ li {
     align-items: center;
     justify-content: center;
     display: flex;
+    padding-right: 10px;
+    margin-right: 10px;
 }
 
 li:hover {
@@ -43,4 +45,10 @@ li:hover {
     50%{color:rgb(90, 18, 207)}
     75%{color:rgb(1, 80, 1)}
     100%{color:rgb(170, 15, 46)}
+}
+@media screen and (max-width:700px) {
+    #boks {
+        font-size:13px;
+        border-radius: 20%;
+    }
 }
