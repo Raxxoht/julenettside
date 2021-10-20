@@ -1,0 +1,42 @@
+body {
+    background: url(https://www.teahub.io/photos/full/206-2064304_christmas-wallpaper-gif.jpg);   
+}
+#boks {
+    background-color: rgba(245, 245, 245, 0.863);
+    border: rgb(1, 80, 1) 10px double;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 40px;
+    border-radius: 30%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+li {
+    margin:10px;
+    color:rgb(170, 15, 46);
+}
+#header {
+    flex-basis:30%;
+    color:green;
+    text-decoration: underline green; 
+    margin-right: 20px;
+    border-right:5px rgba(10, 139, 10, 0.644) dashed;
+    padding-top:20px;
+    padding-right: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+li:hover {
+    animation: jul 3s infinite;
+}
+
+
+@keyframes jul {
+    0% {color:rgb(170, 15, 46)}
+    25% {color:blue}
+    50%{color:rgb(90, 18, 207)}
+    75%{color:rgb(1, 80, 1)}
+    100%{color:rgb(170, 15, 46)}
+}
