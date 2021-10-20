@@ -51,4 +51,12 @@ li:hover {
         font-size:13px;
         border-radius: 20%;
     }
+    #header {
+        font-size: 20px;
+        margin-left: 10px;
+        padding-right: 10px;
+    }
+    li {
+        margin: 5px;
+    }
 }
